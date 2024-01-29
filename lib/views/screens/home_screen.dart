@@ -2,7 +2,6 @@ import 'package:dbordertracking/constants.dart';
 import 'package:dbordertracking/controllers/memu/memu_controllers.dart';
 
 import 'package:dbordertracking/views/components/drawer_widget.dart';
-import 'package:dbordertracking/views/screens/outlist_list.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -118,14 +117,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       decoration: BoxDecoration(
                         color: Colors.grey[200],
                         borderRadius: BorderRadius.circular(8.0),
-                        // gradient: const LinearGradient(
-                        //   colors: [
-                        //     Color.fromARGB(172, 255, 0, 0),
-                        //     Color.fromARGB(170, 255, 0, 0)
-                        //   ],
-                        //   begin: Alignment.topLeft,
-                        //   end: Alignment.bottomRight,
-                        // ),
                       ),
                       width: Get.width * 0.47,
                       height: 80,

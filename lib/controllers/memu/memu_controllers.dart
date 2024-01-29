@@ -231,5 +231,4 @@ class MemuController extends GetxController {
     print(todaysales);
     return totalAmount;
   }
-
 }
